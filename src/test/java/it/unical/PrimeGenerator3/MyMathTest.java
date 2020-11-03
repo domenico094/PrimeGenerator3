@@ -31,5 +31,6 @@ public class MyMathTest {
 	{
 		assertTrue(math.isPrime(7));
 		assertFalse(math.isPrime(8));
+		assertFalse(math.isPrime(1));
 	}
 }
